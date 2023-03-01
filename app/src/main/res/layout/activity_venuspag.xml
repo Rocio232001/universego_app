@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/app_name"
+    tools:context=".venuspag">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/info_size"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/venus_titulo"
+                android:layout_width="1300px"
+                android:layout_height="wrap_content"
+                android:translationX="70px"
+                android:translationY="-550px"
+                app:srcCompat="@drawable/venuspresent_nuevo" />
+
+            <ImageView
+                android:id="@+id/caracttitulo"
+                android:layout_width="700px"
+                android:layout_height="wrap_content"
+                android:translationX="90px"
+                android:translationY="-1400px"
+                app:srcCompat="@drawable/generalestexto" />
+
+            <ImageView
+                android:id="@+id/img_transparentevenus"
+                android:layout_width="1300px"
+                android:layout_height="wrap_content"
+                android:translationX="70px"
+                android:translationY="-2680px"
+                app:srcCompat="@drawable/rect_caracteristicasg" />
+
+            <ImageView
+                android:id="@+id/Info1_venus"
+                android:layout_width="1200px"
+                android:layout_height="wrap_content"
+                android:translationX="120px"
+                android:translationY="-5170px"
+                app:srcCompat="@drawable/info1_venus" />
+
+            <ImageView
+                android:id="@+id/Stickersmall_venus"
+                android:layout_width="700px"
+                android:layout_height="wrap_content"
+                android:translationX="570px"
+                android:translationY="-6050px"
+                app:srcCompat="@drawable/smallvenus_nuevo" />
+
+            <ImageView
+                android:id="@+id/estructura_titulo"
+                android:layout_width="500px"
+                android:layout_height="wrap_content"
+                android:translationX="80px"
+                android:translationY="-6450px"
+                app:srcCompat="@drawable/estructuratitulo" />
+
+            <ImageView
+                android:id="@+id/img_transparentevenus2"
+                android:layout_width="1400px"
+                android:layout_height="wrap_content"
+                android:translationX="25px"
+                android:translationY="-8700px"
+                app:srcCompat="@drawable/rect_estructurainfo" />
+
+            <ImageView
+                android:id="@+id/infolargavenus"
+                android:layout_width="1300px"
+                android:layout_height="wrap_content"
+                android:translationX="80px"
+                android:translationY="-13990px"
+                app:srcCompat="@drawable/venus_infoestructura" />
+
+            <ImageView
+                android:id="@+id/Stickerbig_venus"
+                android:layout_width="1300px"
+                android:layout_height="wrap_content"
+                android:translationX="80px"
+                android:translationY="-15600px"
+                app:srcCompat="@drawable/bigvenus_nuevo" />
+
+            <ImageButton
+                android:id="@+id/btn_volvervenus"
+                android:layout_width="355dp"
+                android:layout_height="87dp"
+                android:contentDescription="@string/app_name"
+                android:translationX="95px"
+                android:translationY="-16190px"
+                app:srcCompat="@drawable/volveratrasnuevo" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

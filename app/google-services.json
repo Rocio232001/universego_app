@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "895210570493",
+    "project_id": "universego-v3-f1d42",
+    "storage_bucket": "universego-v3-f1d42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895210570493:android:9bd6fb2dc866a9c4e07494",
+        "android_client_info": {
+          "package_name": "probandoandriod.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895210570493-fgh8r1f3ikd043jn2bm3s14oaja4or71.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBOzJaB49K8NEg-VIdtUfZfWPoefy20p4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895210570493-fgh8r1f3ikd043jn2bm3s14oaja4or71.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

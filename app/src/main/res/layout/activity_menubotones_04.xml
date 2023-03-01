@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/b"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/app_name">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/menubotones_size01"
+            android:backgroundTintMode="screen"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/fondo_menubotones"
+                android:layout_width="293dp"
+                android:layout_height="133dp"
+                android:translationX="180px"
+                android:translationY="60px"
+                app:srcCompat="@drawable/txt_bienvenidoalespacio" />
+
+            <ImageButton
+                android:id="@+id/btn_mercurio"
+                android:layout_width="355dp"
+                android:layout_height="87dp"
+                android:contentDescription="@string/app_name"
+                android:translationX="95px"
+                android:translationY="150px"
+                app:srcCompat="@drawable/mercurioclick" />
+
+            <ImageButton
+                android:id="@+id/btn_venus"
+                android:layout_width="355dp"
+                android:layout_height="87dp"
+                android:contentDescription="@string/app_name"
+                android:translationX="95px"
+                android:translationY="150px"
+                app:srcCompat="@drawable/venusclick" />
+
+            <ImageButton
+                android:id="@+id/btn_tierra"
+                android:layout_width="355dp"
+                android:layout_height="87dp"
+                android:contentDescription="@string/app_name"
+                android:translationX="95px"
+                android:translationY="160px"
+                app:srcCompat="@drawable/tierraclick" />
+
+            <ImageButton
+                android:id="@+id/btn_marte"
+                android:layout_width="355dp"
+                android:layout_height="87dp"
+                android:contentDescription="@string/app_name"
+                android:translationX="95px"
+                android:translationY="160px"
+                app:srcCompat="@drawable/marteclick" />
+
+            <ImageButton
+                android:id="@+id/btn_jupiter"
+                android:layout_width="355dp"
+                android:layout_height="87dp"
+                android:contentDescription="@string/app_name"
+                android:translationX="95px"
+                android:translationY="160px"
+                app:srcCompat="@drawable/jupiterclick" />
+
+            <ImageButton
+                android:id="@+id/btn_saturno"
+                android:layout_width="355dp"
+                android:layout_height="87dp"
+                android:contentDescription="@string/app_name"
+                android:translationX="95px"
+                android:translationY="160px"
+                app:srcCompat="@drawable/saturnoclick" />
+
+            <ImageButton
+                android:id="@+id/btn_urano"
+                android:layout_width="355dp"
+                android:layout_height="87dp"
+                android:contentDescription="@string/app_name"
+                android:translationX="95px"
+                android:translationY="160px"
+                app:srcCompat="@drawable/uranoclick" />
+
+            <ImageButton
+                android:id="@+id/btn_neptuno"
+                android:layout_width="355dp"
+                android:layout_height="87dp"
+                android:contentDescription="@string/app_name"
+                android:translationX="95px"
+                android:translationY="160px"
+                app:srcCompat="@drawable/neptunoclick" />
+
+            <ImageButton
+                android:id="@+id/btn_pluton"
+                android:layout_width="355dp"
+                android:layout_height="87dp"
+                android:contentDescription="@string/app_name"
+                android:translationX="95px"
+                android:translationY="160px"
+                app:srcCompat="@drawable/plutonclick" />
+
+            <ImageButton
+                android:id="@+id/btn_volveratrasmenu"
+                android:layout_width="355dp"
+                android:layout_height="87dp"
+                android:contentDescription="@string/app_name"
+                android:translationX="95px"
+                android:translationY="160px"
+                app:srcCompat="@drawable/volveratrasnuevo" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

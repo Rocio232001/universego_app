@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/logo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_inicio"
+    android:contentDescription="@android:string/untitled"
+    tools:context=".inicio_01">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo_inicio"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/logogrande"
+            android:layout_width="307dp"
+            android:layout_height="170dp"
+            android:translationX="190px"
+            android:translationY="370px"
+            app:srcCompat="@drawable/universego_nuevologo" />
+
+        <ImageView
+            android:id="@+id/derechosimg"
+            android:layout_width="279dp"
+            android:layout_height="32dp"
+            android:translationX="230px"
+            android:translationY="1750px"
+            app:srcCompat="@drawable/derechos_reservados" />
+
+        <ImageView
+            android:id="@+id/redesimg"
+            android:layout_width="171dp"
+            android:layout_height="27dp"
+            android:translationX="400px"
+            android:translationY="1550px"
+            app:srcCompat="@drawable/redes_sociales" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn_pagregistro"
+        android:layout_width="355dp"
+        android:layout_height="87dp"
+        android:contentDescription="@string/app_name"
+        android:translationX="10px"
+        android:translationY="1450px"
+        app:layout_constraintBottom_toTopOf="@+id/btn_salirapp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/registrarseclick" />
+
+    <ImageButton
+        android:id="@+id/btn_salirapp"
+        android:layout_width="355dp"
+        android:layout_height="87dp"
+        android:contentDescription="@string/app_name"
+        android:onClick="salirapp"
+        android:translationX="10px"
+        android:translationY="1800px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_pagregistro"
+        app:srcCompat="@drawable/salirclick" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
